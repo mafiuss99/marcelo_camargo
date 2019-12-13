@@ -1,6 +1,46 @@
+body{
+    padding-bottom: 85px;
+    background-color:	#333333;
+}
 .header-style{
     margin-top: 100px;
 }
 .bg-dark-mc{
     background-color:	#333333;
 }
+
+.bg-red-mc{
+    background-color: #A64149;
+}
+
+.bg-grey-mc{
+    background-color: #909195;
+}
+
+.text-grey-mc{
+    color: #909195;
+}
+
+#agenda{
+    background-image: url('../img/show.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+}
+
